@@ -1,0 +1,257 @@
+/*resetting browser css*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/*styling for anchor links*/
+a{
+    color:#ffffff;
+    text-decoration: none;
+}
+/*styling for the generic text and background*/
+html, body{
+    font-family:"Times New Roman", Georgia, serif;
+    line-height: 1.7em;
+    background:#f5abb9;
+    color:#ffffff;
+    font-size:16px;
+}
+/*altenative text colors*/
+.text-primary{
+    color:#5bcffa;
+}
+.text-secondary{
+    color:#f5abb9;
+}
+.text-dark{
+    color:black;
+}
+/*styling for buttons*/
+.btn{
+    display:inline-block;
+    font-size:1.125em;
+    background:#5bcffa;
+    color:#ffffff;
+    padding:0.8125em 1.25em;
+    border:none;
+    cursor:pointer;
+    text-decoration:none;
+    border-radius:10px;
+}
+/*styling for hovering on the button*/
+.btn:hover{
+background:#f5abb9;
+}
+/*padding styles*/
+.py10
+{
+    padding-top:10em;
+}
+.py100
+{
+    padding-top:500em;
+}
+/*styling for navbar id*/
+#navbar{
+    background:#5bcffa;
+    color:#ffffff;
+    overflow:auto;
+    height:100%;
+}
+/*styling for anchors in navbar id*/
+#navbar a{
+    color:#ffffff;
+}
+/*navbar id logo styling*/
+#navbar h2{
+    padding-top:0.5em;
+    padding-left:0.5em;
+    float:left;
+}
+/*styling for unordered lists in navbar id*/
+#navbar ul {
+    float:right;
+    list-style: none;
+}
+/*styling for list items in unordered lists in navbar id*/
+#navbar ul li{
+    float:left;
+}
+/*styling for anchor links in list items in unordered lists in navbar id*/
+#navbar ul li a{
+    display:block;
+    padding:1.25em;
+    text-align:center;
+}
+/*styling for anchor links in hover in list items in unordered lists in navbar id and the current class*/
+#navbar ul li a:hover, .current{
+    background:#f5abb9;
+    color:#ffffff;
+    border-radius:10px;
+}
+/*showcase id styling*/
+#showcase{
+    background: url("img/comic_books.jpg") no-repeat center/cover;
+    height:54em;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+/*showcase content class styling*/
+#showcase .showcase-content{
+    color:#ffffff;
+    text-align:center;
+    height:15em;
+    width:60em;
+    border-radius:20px;
+    background:rgba(0,0,0,0.4);
+}
+/*showcase content class heading 1 styling*/
+#showcase .showcase-content h1{
+    font-size:3.75em;
+    line-height:1.2em;
+}
+/*showcase content class paragraph styling*/
+#showcase .showcase-content p{
+    padding-bottom: 1.25em;
+    line-height:1.7em;
+}
+/*button array styling*/
+#btn-arr{
+    height:20em;
+}
+/*a dark box to make text stand out*/
+.dark-box{
+    background:rgba(0,0,0,0.4);
+    border-radius:20px;
+    height:2rem;
+    width:8rem;
+}
+/*styling for buttons at the bottom of the index page*/
+#viewings-btn{
+    float:left;
+    width:33.3%;
+    height:100%;
+    padding:10em;
+    text-align:center;
+    background:url("img/tickets.jpg")no-repeat center/cover;
+}
+#archive-btn{
+    float:left;
+    width:33.3%;
+    height:100%;
+    padding:10em;
+    text-align:center;
+    background:url("img/archive.jpg")no-repeat center/cover;
+}
+#contact-btn{
+    float:left;
+    width:33.3%;
+    height:100%;
+    padding:10em;
+    text-align:center;
+    background:url("img/phone.jpg")no-repeat center/cover;
+}
+/*making the contact page a grid so the elements are situated properly*/
+#contact-page{
+    display:grid;
+    grid-template-columns:auto auto;
+    gid-template-rows:auto auto ;
+}
+/*contact form styling*/
+#contact-form{
+    grid-row:1;
+    grid-column:1;
+    text-align:center;
+    margin: 50px 50px 50px 50px;
+}
+#contact-form button{
+    margin:1em 3em 2em 3em;
+}
+#contact-form .btn:hover{
+    background:#0580ad;
+}
+/*making sure contact info is in the bottom left*/
+#contact-info{
+    grid-row:2;
+    grid-column:1;
+    text-align:center;
+    margin: 50px 50px 50px 50px;
+}
+/*social media button styling*/
+#contact-info .social-media-btns a i{
+color: #5bcffa;
+}
+#contact-info .social-media-btns a i:hover{
+color:#0580ad;
+}
+/*styling so the large logo is in the right column and is properly sized*/
+#logo{
+    grid-row:1/span 2;
+    grid-column:2;
+}
+#logo img{
+    margin: 50px 50px 50px 50px;
+    height:900px;
+    background-size:contain, cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+/*archive styling*/
+#seen_shows, #seen_movies, #read_comics{
+    height:33.3%;
+    width:100%;
+}
+#seen_shows h2, #seen_movies h2, #read_comics h2{
+    font-size:2em;
+    color:#5bcffa;
+    text-align:center;
+}
+#seen_shows a, #seen_movies a, #read_comics a{
+color:#ffffff;
+text-align:center;
+}
+#seen_shows a:hover, #seen_movies a:hover, #read_comics a:hover{
+color:#419dbe;
+}
+/*styles to give elements a box like look*/
+.box-primary{
+    background:#5bcffa;
+    border-radius:15px;
+}
+.box-secondary {
+    background:#f5abb9;
+    border-radius:15px;
+}
+/*styling for the dance party in archive*/
+#dance{
+    margin-top:12rem;
+    margin-bottom:12rem;
+    height:100%;
+    width:100%;
+    display:grid;
+    row-gap:15px;
+    justify-content:center;
+    align-items:center;   
+}
+#dance h1{
+    color:#5bcffa;
+    text-align:center;
+    font-size:4rem;
+    grid-row:1/span 1;
+}
+#dance video{
+    grid-row:2/span 1;
+}
+#dance audio{
+    grid-row:3/span 1;
+}
+/*consistent styling for the footer in all 4 webpages*/
+footer{
+    text-align:center;
+    padding:1.25em;
+    background:#5bcffa;
+    color:#ffffff;
+    height:4.5em;
+}

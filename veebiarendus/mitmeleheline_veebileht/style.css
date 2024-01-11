@@ -1,0 +1,249 @@
+/*resetting browserhahahfasfhshf css*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/*styling for the body and html*/
+html, body{
+    font-family:"Times New Roman", Georgia, serif;
+    line-height: 1.7em;
+}
+/*styling for anchor links*/
+a{
+    color:#990033;
+    text-decoration: none;
+}
+/*styling for h1*/
+h1, h2, h3{
+    padding-bottom:1.25em;
+}
+/*content basic style*/
+.container{
+    margin:auto;
+    max-width:1100px;
+    padding:0 1.25em;
+    overflow:auto;
+}
+/*styling for buttons*/
+.btn{
+    display:inline-block;
+    font-size:1.125em;
+    background:#660600;
+    color:#ecece7;
+    padding:0.8125em 1.25em;
+    border:none;
+    cursor:pointer;
+}
+/*styling for hovering on the button*/
+.btn:hover{
+background:#990033;
+color:#ffb403;
+}
+/*styling for an alternative light button*/
+.btn-light{
+    background:#ecece7;
+    color:#222222;
+}
+/*a dark background styling*/
+.bg-dark{
+     background:#330300;
+     color:#ecece7;
+}
+/*a dark background styling*/
+.bg-light{
+     background:#ecece7;
+     color:#222222;
+}
+/*a dark background styling*/
+.bg-primary{
+     background:#ffb403;
+     color:#222222;
+}
+/*styling for navbar id*/
+#navbar{
+    background:#660600;
+    color:#ecece7;
+    overflow:auto;
+}
+/*styling for anchors in navbar id*/
+#navbar a{
+    color:#ecece7;
+}
+/*navbar id heading styling*/
+#navbar h1{
+    padding-top:1.25em;
+    float:left;
+}
+/*styling for unordered lists in navbar id*/
+#navbar ul {
+    float:right;
+    list-style: none;
+}
+/*styling for list items in unordered lists in navbar id*/
+#navbar ul li{
+    float:left;
+}
+/*styling for anchor links in list items in unordered lists in navbar id*/
+#navbar ul li a{
+    display:block;
+    padding:1.25em;
+    text-align:center;
+}
+/*styling for anchor links in hover in list items in unordered lists in navbar id and the current class*/
+#navbar ul li a:hover, .current{
+    background:#990033;
+    color:#ffb403;
+}
+/*showcase id styling*/
+#showcase{
+    background: url("img/room-vanijatan.jpg") no-repeat center/cover;
+    height:37.5em;
+}
+/*showcase content class styling*/
+#showcase .showcase-content{
+    color:#000000;
+    text-align:center;
+    padding-top:10.625em;
+}
+/*showcase content class heading 1 styling*/
+#showcase .showcase-content h1{
+    font-size:3.75em;
+    line-height:1.2em;
+}/*showcase content class paragraph styling*/
+#showcase .showcase-content p{
+    padding-bottom: 1.25em;
+    line-height:1.7em;
+}
+/*styling for info*/
+#info{
+    height:25em;
+}
+/*styling for the content in the info section*/
+#info .info-content{
+    float:right;
+    width: 45%;
+    height:100%;
+    text-align:center;
+    padding:50px 30px;
+    overflow: hidden;
+}
+/*styling for paragraphs in info content in info*/
+#info .info-content p{
+    padding-bottom:1.875em;
+}
+#info .info-img{
+    float:left;
+    width:45%;
+    min-height:100%;
+    background:url("img/building-roman_babakin.jpg") no-repeat;
+}
+/*styling for features boxes*/
+#features .box{
+    float:left;
+    width:33.3%;
+    padding:3.125em;
+    text-align:center;
+}
+#features .box i {
+    margin-bottom:0.625em;
+}
+/*text-primary class styling*/
+.text-primary{
+    color:#ffb403;
+}
+/*styling so the footer shows properly*/
+.clear{
+    clear:both;
+}
+/*styling for the left side of the info section*/
+.about-info .info-left{
+    float:left;
+    width:49%;
+    min-height:100%;
+}
+/*styling for the right side of the info section*/
+.about-info .info-right{
+    float:right;
+    width:49%;
+    min-height:100%;
+}
+/*styling for the info section img*/
+.about-info .info-right img{
+    display:block;
+    margin:auto;
+    width:50%;
+    border-radius:50%;
+}
+/*2em padding class*/
+.py-2{
+    padding:2em 0em;
+}
+/*styling for the entire testimonials section*/
+#testimonials{
+    height:37.5em;
+    background:url("img/building-lifeforstock") no-repeat center center/cover;
+}
+/*styling for the heading of the testimonials section*/
+#testimonials h2{
+    color:#330300;
+    text-align:center;
+}
+/*styling for the individual testimonials themselves*/
+#testimonials .testimonial{
+    padding:1.25em;
+    margin-bottom:2.5em;
+    border-radius:0.4em;
+    opacity:0.9;
+}
+/*styling for the images associated with the testimonials*/
+#testimonials .testimonial img{
+    object-fit:cover;
+    width:4.5em;
+    height:4.5em;
+    float:left;
+    margin-right:1.25em;
+    border-radius:50%;
+}
+/*styling for the contact form form groups aka the boxes you enter data in and the labels*/
+#contact-form .form-group{
+    margin-bottom:1.25em;
+}
+/*styling specifically for the labels of the contact form*/
+#contact-form .form-group label{
+    display:block;
+    margin-bottom:0.3125em;
+}
+/*styling for the input and textarea of the form*/
+#contact-form .form-group input,
+#contact-form .form-group textarea{
+    width:100%;
+    padding:0.625em;
+    border:1px solid #c0c0c0;
+}
+/*styling specifically for the text area*/
+#contact-form .form-group textarea{
+    height:12.5em;
+}
+#contact-form .form-group input:focus,
+#contact-form .form-group textarea:focus{
+    outline:none;
+    border-color:#ffb403;
+}
+#contact-info .box{
+    float:left;
+    width:32.5%;
+    padding:3.125em;
+    text-align:center;
+}
+#contact-info .box i{
+    margin-bottom:0.625em;
+}
+footer{
+    text-align:center;
+    padding:1.25em;
+    background:#330300;
+    color:#ecece7;
+}

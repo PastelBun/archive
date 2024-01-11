@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--HTML-i algus, ning utleb runnerile, et eeldada eesti keelt-->
+<html lang=et>
+    <head>
+        <!--metadata lehekulje kohta-->
+        <meta charset="UTF-8">
+        <meta name="description" content="Excercise in utilising CSS">
+        <meta name="keywords" content="HTML, CSS">
+        <meta name="author" content="Samantha Soosaar">
+        <!--internal CSS-->
+        <style>
+            /*pealkirja id muutub punaseks ja 1.5em suuruseks*/
+            /*kasutan em-e pikslite asemel, kuna see on kasutajasobralikum, 1.5em on tüüpilises keskkonnas 24px*/
+            #pealkiri{
+            color:red;
+            font-size:1.5em;
+}
+            /*taustakasti id muutub valgeks tekstiks, sinises kastis, koos 10px ruumiga selle ja veebilehe piiride vahel*/
+            #taustakast{
+            background-color:#0074d9;
+            color:white;
+            padding:0.625em;
+}
+            /*universumi pildi id muutub 12.5em-i laiuseks ja vertikaalselt läheb see tippu*/
+            #universumi_pilt{
+            width:12.5em;
+            vertical-align:top;
+}
+            /*minu nupu id muutub roheliseks, valge tekstiga, koos paddinguga oma umber ja väikese borderiga, mis annab umarad nurgad ja kui kursor laheb sellest ule see muutub, et naidata, et nupp vajutatav*/
+            #minu_nupp{
+            background-color:#4caf50;
+            color:white;
+            padding:0.625em 1.25em;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+}
+            /*kui nuppult ule minna siis muutub varv natukene tumedamaks*/
+            #minu_nupp:hover{
+            background-color:#45a049;
+}       </style>
+        <!--tiitel, mis peaks olema naha searchbar-is-->
+        <title>Minu Veebileht</title>
+    </head>
+    <!--faili keha-->
+    <body>
+        <!--header 1-->
+        <h1 id="pealkiri">Minu Veebileht</h1>
+        <div id="taustakast">See on Taustakast</div>
+        <img src="../../pildid/universe.jpg" alt="universum" id="universumi_pilt">
+        <button id="minu_nupp">Vajuta mind</button>
+    </body>
+</html>

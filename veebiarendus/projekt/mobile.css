@@ -1,0 +1,57 @@
+/*making the navbar easy to read and hiding the logo because it's too small*/
+#navbar{
+    width:100%;
+}
+#navbar h2{
+    display:none;
+}
+#navbar ul,
+#navbar ul li{
+    height:0.6;
+    float:none;
+}
+/*making showcase content fit the page*/
+#showcase .showcase-content{
+  width:100%;  
+}
+/*styling to make index page buttons fit*/
+#btn-arr,
+#viewings-btn,
+#archive-btn,
+#contact-btn{
+    float:none;
+    width:100%;
+    height:100%;
+}
+/*footer styling so it appears at the bottom*/
+#footer{
+    width:100%;
+    height:100%;
+    padding:0;
+}
+/*styling for the dance party section*/
+#dance{
+    display:initial;
+    width:100%;
+    height:100%;
+}
+#dance h1{
+    padding-top:2em;
+    Font-size:3em;
+}
+#dance h1,
+#dance video{
+    height:100%;
+    width:100%;
+}
+/*styling so the contact page content looks nice*/
+#contact-page{
+    display:initial;
+    width:100%;
+    height:100%;
+}
+#logo img{
+ height:100%;
+ width:100%;
+ margin:0;
+}

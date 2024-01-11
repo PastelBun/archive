@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--maarab keeleks eesti keele-->
+<html lang="et">
+<head>
+    <!--meta info standard asjad-->
+    <meta charset="UTF-8">
+    <meta name="description" content="Clicker m&#228;ng. Loodan, et meeldib.">
+    <meta name="author" content="Samantha Soosaar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <!--stiili link-->
+    <link rel="stylesheet" href="style.css">
+    <!--pealkiri, pole ideaalne, kuid natukene luulelik-->
+    <title>Litsutamise Looming</title>
+</head>
+<!--faili keha-->
+<body>
+    <!--peamine osa, koos nuppuga, mis töötab skoori, skoor ise ja tiitel-->
+<div id="main">
+    <h1>Loo elu klikkides!</h1>
+    <p id="punktid"></p>
+    <button type="button" id='btn_count'>
+        <img id="frame_1" src="img/closed_no_text.png" alt="Jumalikud v&#245;imed" loading="eager">
+        <img id="frame_2" src="img/Open_no_text.png" alt="Jumalikud v&#245;imed" loading="eager">
+    </button>
+</div>
+<!--nupud automaatskoori ostmiseks-->
+<div id="btn_arr">
+    <div id="obj_0">
+        <button type="button" id='purch0'><span class='obj_txt'>Prootonid </span><span id='price0'></span><br>
+        <span id='count0'></span></button>
+        <button type="button" id='upg0'><span class='obj_txt'>Elektronid </span><span id='upg_price0'></span><br>
+        <span id='upg_count0'></span></button>
+    </div>
+    <div id="obj_1">
+        <button type="button" id='purch1'><span class='obj_txt'>&#252;herakulised organismid </span><span id='price1'></span><br>
+        <span id='count1'></span></button>
+        <button type="button" id='upg1'><span class='obj_txt'>&#252;herakulised viirused </span><span id='upg_price1'></span><br>
+        <span id='upg_count1'></span></button>
+    </div>
+    <div id="obj_2">
+        <button type="button" id='purch2'><span class='obj_txt'>Mitmerakulised organismid </span><span id='price2'></span><br>
+        <span id='count2'></span></button>
+        <button type="button" id='upg2'><span class='obj_txt'>Mitmerakulised viirused </span><span id='upg_price2'></span><br>
+        <span id='upg_count2'></span></button>
+    </div>
+    <div id="obj_3">
+        <button type="button" id='purch3'><span class='obj_txt'>Mikroskobilised organismid </span><span id='price3'></span><br>
+        <span id='count3'></span></button>
+        <button type="button" id='upg3'><span class='obj_txt'>Kahjulikud bakterid </span><span id='upg_price3'></span><br>
+        <span id='upg_count3'></span></button>
+    </div>
+    <div id="obj_4">
+        <button type="button" id='purch4'><span class='obj_txt'>Putukad </span><span id='price4'></span><br>
+        <span id='count4'></span></button>
+        <button type="button" id='upg4'><span class='obj_txt'>Parasiidid </span><span id='upg_price4'></span><br>
+        <span id='upg_count4'></span></button>
+    </div>
+    <div id="obj_5">
+        <button type="button" id='purch5'><span class='obj_txt'>Kalad </span><span id='price5'></span><br>
+        <span id='count5'></span></button>
+        <button type="button" id='upg5'><span class='obj_txt'>Solk </span><span id='upg_price5'></span><br>
+        <span id='upg_count5'></span></button>
+    </div>
+    <div id="obj_6">
+        <button type="button" id='purch6'><span class='obj_txt'>Kahepaiksed </span><span id='price6'></span><br>
+        <span id='count6'></span></button>
+        <button type="button" id='upg6'><span class='obj_txt'>Karnivoorid </span><span id='upg_price6'></span><br>
+        <span id='upg_count6'></span></button>
+    </div>
+    <div id="obj_7">
+        <button type="button" id='purch7'><span class='obj_txt'>Imetajad </span><span id='price7'></span><br>
+        <span id='count7'></span></button>
+        <button type="button" id='upg7'><span class='obj_txt'>Kannibalid </span><span id='upg_price7'></span><br>
+        <span id='upg_count7'></span></button>
+    </div>
+    <div id="obj_8">
+        <button type="button" id='purch8'><span class='obj_txt'>Inimesed </span><span id='price8'></span><br>
+        <span id='count8'></span></button>
+        <button type="button" id='upg8'><span class='obj_txt'>M&#245;rvarid </span><span id='upg_price8'></span><br>
+        <span id='upg_count8'></span></button>
+    </div>
+    <div id="obj_9">
+        <button type="button" id='purch9'><span class='obj_txt'>Elu </span><span id='price9'></span><br>
+        <span id='count9'></span></button>
+        <button type="button" id='upg9'><span class='obj_txt'>Surm </span><span id='upg_price9'></span><br>
+        <span id='upg_count9'></span></button>
+    </div>
+    <div id="reset_btn">
+        <button type="button" id='reset'>Alusta Uuesti</button>
+    </div>
+</div>
+<br>
+<br>
+<!--footer, ei taha olla oma liinil, kuid käib kah-->
+<footer>
+    <p>Samantha Soosaar &copy;2024, K&#245;ik &#213;igused On Kaitstud</p>
+</footer>
+<!--javascripti link-->
+<script src="script.js"></script>
+</body>
+</html>

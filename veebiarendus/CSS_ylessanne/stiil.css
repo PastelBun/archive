@@ -1,0 +1,13 @@
+/*minu nupu id muutub halliks, valge tekstiga, koos paddinguga oma ümber ja väikese borderiga, mis annab ümarad nurgad ja kui kursor läheb sellest üle see muutub, et näidata, et nupp vajutatav*/
+#minu_nupp{
+    background-color:#3498db;
+    color:#ffffff;
+    padding:0.625em 1.25em;
+    border:none;
+    border-radius:0.3125em;
+    cursor:pointer;
+}
+/*kui nuppult üle minna siis muutub värv siniseks*/
+#minu_nupp:hover{
+    background-color:#2980b9;
+}

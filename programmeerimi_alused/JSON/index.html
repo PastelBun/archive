@@ -1,0 +1,26 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<h1>Täringumäng</h1>
+<div>
+  <p>Tere <span id="adjective"></span> <span id="name"></span>!</p>
+</div>
+<h4>Iga vise annab silmade arv korda 10 eurot juurde.</h4>
+<h4>Kui viskad 15 silma, siis võidad 3000 eurot, kui läheb üle, kaotad kõik.</h4>
+<!--
+<label for="name">Nimi</label>
+<input type="text" placeholder="Jane Doe" id="name">
+-->
+<p id="message-el">Kas soovid mängida?</p>
+<p id="dice-el">Visked:</p>
+<p id="sum-el">Silmade arv kokku:</p>
+<button onclick="startGame()">Alusta mängu</button>
+<button onclick="newDice()">Viska lisatäring</button>
+<p id="result-el"></p>
+<script src="../arhiiv/hasartmängu_parandus.js"></script>
+</body>
+</html>
