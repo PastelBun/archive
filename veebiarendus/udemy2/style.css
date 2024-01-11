@@ -1,0 +1,19 @@
+body{
+            font-family:"Courier New", serif,  initial, inherit;
+        }
+.headerMain {
+        margin-bottom: 75px;
+        background-color: #203222;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url('img/students-lookstudio.jpg');
+    }
+    
+.headingtext {
+        color: white;
+        padding: 150px 0;
+    }
+.jumbotron{
+    background:url(img/customer_support-freepik.jpg); opacity:0.5;
+}
