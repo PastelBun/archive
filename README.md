@@ -1,0 +1,1 @@
+This is an archive of old projects, containing a number of different files. It exists due to my schools c-panel being unstable and therefore I needed to take safety measures for data preservation, feel free to take a look and see if there's something you like.
